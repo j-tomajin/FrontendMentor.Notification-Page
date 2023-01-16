@@ -1,0 +1,20 @@
+// %
+@use 'breakpoints' as *;
+@use 'functions';
+@use 'mixins' as *;
+
+%text-head {
+    @include text-style($color: var(--clr-neutral-700), $ff: EB);
+}
+
+%text-head-alt {
+    @include text-style($color: var(--clr-neutral-600), $ff: EB);
+}
+
+%text-head-blue {
+    @include text-style($color: var(--clr-primary-200), $ff: EB);
+}
+
+%text-sub {
+    @include text-style($color: var(--clr-neutral-500), $ff: M);
+}
