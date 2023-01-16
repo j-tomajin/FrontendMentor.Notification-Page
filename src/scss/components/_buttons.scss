@@ -1,0 +1,6 @@
+@use '../utilities/' as *;
+
+.mark-read {
+    @include text-style($color: var(--clr-neutral-600), $ff: M);
+    background-color: transparent;
+}
