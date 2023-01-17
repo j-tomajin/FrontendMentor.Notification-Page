@@ -1,4 +1,4 @@
-.notification__header, .content {
+.notification__header, .content__user-link {
   color: var(--clr-neutral-700);
   line-height: 1;
   letter-spacing: 0;
@@ -229,6 +229,9 @@ a:not([class]) {
   font-family: "Jakarta Medium";
   background-color: transparent;
 }
+.mark-read:hover {
+  color: var(--clr-primary-200);
+}
 
 footer {
   margin-top: auto;
@@ -369,4 +372,8 @@ footer {
   display: flex;
   align-items: start;
   justify-content: space-between;
+}
+
+.hover-lift:hover, .content__user-link:hover {
+  color: var(--clr-primary-200);
 }/*# sourceMappingURL=style.css.map */
